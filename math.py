@@ -15,8 +15,6 @@ def multiply(a, b):
 def divide(a, b):
     """Return the division of a by b. Raises an error if b is 0."""
     if b == 0:
-        raise ValueError("Cannot divide by zero.")
-    return a / b
 
 def power(base, exponent):
     """Return base raised to the power of exponent."""
@@ -25,7 +23,6 @@ def power(base, exponent):
 def square_root(x):
     """Return the square root of x. Raises an error if x is negative."""
     if x < 0:
-        raise ValueError("Cannot take the square root of a negative number.")
     return math.sqrt(x)
 
 def factorial(n):
